@@ -1,0 +1,268 @@
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --second-background-color: #2F303A;
+    --third-background-color:#F5F4FA;
+    --logo-text-color: #000000;
+}
+
+body{
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    font-family: 'Roboto',sans-serif ;
+    letter-spacing: 0.03em;
+}
+
+.list{
+    list-style-type: none;
+}
+
+/* лого хед*/
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo .accent {
+    color: var(--accent-color)
+}
+
+.logo .basic {
+    color: var(--logo-text-color)
+}
+
+
+
+
+/* nav */
+
+.item-navigation{
+    list-style-type: none;
+}
+
+
+.link-navigation{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.group-item{
+    list-style-type: none;
+    }
+
+.link-contact{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+/* навигация  */
+
+.link-navigation:hover {
+color: var(--accent-color);
+}
+.link-navigation:focus {
+color: var(--accent-color);
+}
+.link-navigation:{
+cursor: pointer;
+}
+
+
+.link-contact:hover {
+color: var(--accent-color);
+}
+.link-contact:focus {
+color: var(--accent-color);
+}
+.link-contact{
+cursor: pointer;
+}
+
+
+
+/* тело */
+
+.header-logo{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.button {
+    background: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #FFFFFF;
+}
+
+.header-section{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.6;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+
+}
+
+.features{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+.description{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+/* команда */
+
+
+.name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.8;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
+.job{
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color)
+}
+
+.footer{
+background-color: var(--second-background-color);
+}
+
+.address-item{
+list-style-type: none;
+}
+
+.link-map{
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 400;
+ font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--primary-background-color);
+text-decoration: none;
+}
+
+.link-address{
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
+/* лого хед */
+
+.logotype {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logotype .start {
+    color: var(--accent-color);
+}
+
+.logotype .end {
+    color: var(--primary-background-color);
+}
+
+
+/* портфолио */
+
+.button-list {
+    list-style-type: none;
+}
+
+.btn:hover {
+    background: var(--accent-color);
+    color: var(--primary-background-color);
+}
+
+.btn:focus {
+    color: var(--title-text-color);
+}
+
+.btn:active {
+    color: var(--title-text-color);
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--primary-background-color)
+}
+
+.image-mame{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--title-text-color)
+}
+
+.type{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color:var(--primary-text-color)
+}
