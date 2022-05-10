@@ -108,11 +108,11 @@ align-items: center;
 }
 
 
-.site-nav.linklink-navigation {
+.navigation-list .link-navigation {
 display: block;
 padding-top: 32px;
 padding-bottom: 32px;
-}
+} 
 
 .navigation-list .item {
     margin-right: 50px;
@@ -555,9 +555,10 @@ line-height: 2;
 letter-spacing: 0.06em;
 color:var(--title-text-color)
 
+}
+.image.name-works {
 margin-bottom: 4px;
 }
-
 .type{
 font-weight: 400;
 font-size: 16px;
